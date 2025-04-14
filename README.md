@@ -29,8 +29,9 @@ exploring Blockchain, Generative AI and much more ......
 - ai/ml and Data Sciene projects talk..
 
 🤔 I’m looking for help with:
-- Scalable backend architecture  
-- Optimizing ML models for edge devices
+- Scalable backend architecture ,frontened architecture  
+- Optimizing problems solving
+- JUST doing data structures problems ,
 
 💬 Ask me about:
 - Full-Stack Web Development/mern Stack  
@@ -39,7 +40,7 @@ exploring Blockchain, Generative AI and much more ......
 - GitHub, Git, and version control workflows
 
 - 😄 Pronouns: ...
- you can call me he /him 
+ -you can call me: he /him 
 
 ⚡ Fun fact:
 -just being nothing to moving on 
