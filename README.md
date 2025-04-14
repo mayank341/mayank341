@@ -1,4 +1,8 @@
-## Hi there 👋
+## Namastey to all programer,coder and all of you  
+Hey I am  your Mayank 
+I am Currently pursuing my B.Tech in Information Technology (2023–2027) at ABESEC(Ghaziabad,Uttarpradesh)India .
+passionate about Full-Stack Development/mern stack,  a big enthusisatic in AI/ML and data science, and solving real-world problems
+exploring Blockchain, Generative AI, and Cloud Computing
 
 <!--
 **mayank341/mayank341** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
