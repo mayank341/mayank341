@@ -1,9 +1,9 @@
-## Namastey /Hii to All
+ ##                                                                  Hii👋 ,welcome to this profile ...
 <!-- Banner -->
 <img src="https://cdn.mycplus.com/mycplus/wp-content/uploads/2020/02/programming_tips.jpg" alt="banner" style="width:100%;"/>
 
 
-<h1 align="center">Hi/Hey, I am  your Mayank   👋</h1>
+<h1 align="center"> I am Mayank   👋</h1>
 
 <p align="center">
   🚀 Engineering Student | 💻 Developer | 📚 Lifelong Learner <br>
