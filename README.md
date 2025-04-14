@@ -1,20 +1,53 @@
-## Namastey to all programer,coder and all of you  
-Hey I am  your Mayank 
+## Namastey hii 
+<!-- Banner -->
+<img src="https://cdn.mycplus.com/mycplus/wp-content/uploads/2020/02/programming_tips.jpg" alt="banner" style="width:100%;"/>
+
+
+<h1 align="center">Hi/Hey, I am  your Mayank   👋</h1>
+
+<p align="center">
+  🚀 Engineering Student | 💻 Developer | 📚 Lifelong Learner <br>
+  <em>"Passionate about building impactful tech with clean code."</em>
+</p>
+
 I am Currently pursuing my B.Tech in Information Technology (2023–2027) at ABESEC(Ghaziabad,Uttarpradesh)India .
-passionate about Full-Stack Development/mern stack,  a big enthusisatic in AI/ML and data science, and solving real-world problems
-exploring Blockchain, Generative AI, and Cloud Computing
+passionate about Full-Stack Development/mern stack,  a big enthusisatic in AI/ML and Data Science, and solving real-world problems
+exploring Blockchain, Generative AI and much more ......
 
 <!--
 **mayank341/mayank341** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
+#About me :
+
+
+🌱 I’m currently learning:
+--Full-stack web applications (MERN Stack)  
+- Data Science projects  
+- Competitive programming & open-source contributions 
+-  Data Structures & Algorithms  
+
+👯 I’m looking to collaborate on:
+- Open-source projects  
+- Hackathons and engineering tech fests  
+- ai/ml and Data Sciene projects talk..
+
+🤔 I’m looking for help with:
+- Scalable backend architecture  
+- Optimizing ML models for edge devices
+
+💬 Ask me about:
+- Full-Stack Web Development/mern Stack  
+- Ai/ml just being too much enthusiastic  
+- Learning LAnguage : C, C++, Java, Python  
+- GitHub, Git, and version control workflows
+
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ you can call me he /him 
+- 
+⚡ Fun fact: ...
+--> just being nothing to moving on ...
+--> just being hating coding to loving it ,
+-->> just being curious about programmer .
+
