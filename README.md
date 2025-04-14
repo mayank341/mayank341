@@ -40,7 +40,10 @@ exploring Blockchain, Generative AI and much more ......
 - GitHub, Git, and version control workflows
 
 - 😄 Pronouns: ...
- -you can call me: he /him 
+ -you can call me: he /him
+
+  <!-- Banner -->
+<img src="https://www.linkedin.com/pulse/tips-improve-coding-skills-lighthousetech" alt="banner" style="width:100%;"/>
 
 ⚡ Fun fact:
 -just being nothing to moving on 
