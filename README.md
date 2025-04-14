@@ -14,13 +14,8 @@ I am Currently pursuing my B.Tech in Information Technology (2023–2027) at ABE
 passionate about Full-Stack Development/mern stack,  a big enthusisatic in AI/ML and Data Science, and solving real-world problems
 exploring Blockchain, Generative AI and much more ......
 
-<!--
-**mayank341/mayank341** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
 
 #About me :
-
 
 🌱 I’m currently learning:
 --Full-stack web applications (MERN Stack)  
@@ -45,7 +40,7 @@ Here are some ideas to get you started:
 
 - 😄 Pronouns: ...
  you can call me he /him 
-- 
+
 ⚡ Fun fact: ...
 --> just being nothing to moving on ...
 --> just being hating coding to loving it ,
