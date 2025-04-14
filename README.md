@@ -1,4 +1,4 @@
-## Namastey hii 
+## Namastey /Hii to All
 <!-- Banner -->
 <img src="https://cdn.mycplus.com/mycplus/wp-content/uploads/2020/02/programming_tips.jpg" alt="banner" style="width:100%;"/>
 
