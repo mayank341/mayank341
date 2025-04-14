@@ -42,12 +42,14 @@ exploring Blockchain, Generative AI and much more ......
 - 😄 Pronouns: ...
  -you can call me: he /him
 
-  <!-- Banner -->
-<img src="https://akcoding.com/10-pillars-to-improve-your-coding-skills/" alt="banner" style="width:100%;"/>
-
 ⚡ Fun fact:
 -just being nothing to moving on 
 -just being hating coding to loving it ,
 -just being curious about programmer .
+
+
+<img src="https://akcoding.com/10-pillars-to-improve-your-coding-skills/" alt="banner" style="width:100%;"/>
+
+
 
 
