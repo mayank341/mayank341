@@ -48,7 +48,7 @@ exploring Blockchain, Generative AI and much more ......
 -just being curious about programmer .
 
 
-<img src="https://akcoding.com/wp-content/uploads/2024/08/Improve-Your-Coding-Skills.png.webp" alt="banner" style="width:100%;"/>
+<img src="https://akcoding.com/wp-content/uploads/2024/08/Improve-Your-Coding-Skills.png.webp" alt="banner" style="width:50%;" height="50%"/>
 
 
 
