@@ -1,4 +1,4 @@
-##                                                                           Hii👋 ,welcome to this profile 
+                                                            <h1 align="center">    Hii👋 ,welcome to my profile  </h1>
 <!-- Banner -->
 <img src="https://cdn.mycplus.com/mycplus/wp-content/uploads/2020/02/programming_tips.jpg" alt="banner" style="width:100%;"/>
 
