@@ -1,4 +1,4 @@
-cat > /mnt/user-data/outputs/README.md << 'READMEEOF'
+
 <h1 align="center">Hi, I'm Mayank 👋</h1>
 
 <p align="center">
