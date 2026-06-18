@@ -23,7 +23,7 @@ Building at the intersection of **full-stack engineering** and **applied AI**. I
 Believer in clean architecture, consistent commits, and never stopping at "good enough."
 
 - 🔭 Currently building: **LangGraph multi-agent systems** + **FastAPI RAG pipelines**
-- 🌱 Exploring: **Generative AI**, **Blockchain**, **Data Science**
+- 🌱 Exploring: **Generative AI**,**MACHINE LEARNING** , **Data Science**
 - 🤝 Open to: **AI/ML projects**, **open-source**, **hackathons**
 - 💬 Ask me about: **MERN**, **LLM pipelines**, **DSA**, **Git workflows**
 - ⚡ Fun fact: Went from knowing zero code to being completely obsessed with it — curiosity is my superpower
@@ -70,7 +70,7 @@ Believer in clean architecture, consistent commits, and never stopping at "good 
 
 > 6-month consistent DSA practice streak · Arrays → DP → Graphs → System Design
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=light&font=Nunito&ext=heatmap)
+![LeetCode Stats](https://leetcode.com/u/mayank_osholt/)
 
 | Difficulty | Solved |
 |------------|--------|
@@ -78,39 +78,42 @@ Believer in clean architecture, consistent commits, and never stopping at "good 
 | 🟡 Medium  | 220+   |
 | 🔴 Hard    | 70+    |
 
-> 💡 **Tip:** Replace `YOUR_LEETCODE_USERNAME` above. The heatmap auto-generates your real streak graph.
 
 ---
 
-## 📊 GitHub Stats
+
+  ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" height="155" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=default&hide_border=true&langs_count=8" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api?username=https://leetcode.com/u/mayank_osholt&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=https://leetcode.com/u/mayank_osholt&layout=compact&theme=default&hide_border=true&langs_count=8" height="155" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=default&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=https://leetcode.com/u/mayank_osholt&theme=default&hide_border=true" />
 </p>
+
+---
+
 
 ---
 
 ## 🔗 Connect With Me
 
 <p align="left">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN">
+  <a href="https://www.linkedin.com/in/mayankkumar77/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://instagram.com/YOUR_INSTAGRAM">
+  <a href="https://www.instagram.com/mayyank_anand/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" />
   </a>
-  <a href="https://twitter.com/YOUR_TWITTER">
+  <a href="https://x.com/your_mayyank">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white" />
   </a>
-  <a href="mailto:YOUR_EMAIL">
+  <a href="mailto:itsmayankkumar01@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" />
   </a>
-  <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME">
+  <a href="https://leetcode.com/u/mayank_osholt/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black" />
   </a>
 </p>
