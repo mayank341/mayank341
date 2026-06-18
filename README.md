@@ -85,12 +85,12 @@ Believer in clean architecture, consistent commits, and never stopping at "good 
   ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=https://leetcode.com/u/mayank_osholt&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" height="155" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=https://leetcode.com/u/mayank_osholt&layout=compact&theme=default&hide_border=true&langs_count=8" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api?username=https://github.com/mayank341/mayank341/t&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=https://github.com/mayank341/mayank341/&layout=compact&theme=default&hide_border=true&langs_count=8" height="155" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=https://leetcode.com/u/mayank_osholt&theme=default&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=https://github.com/mayank341/mayank341/&theme=default&hide_border=true" />
 </p>
 
 ---
