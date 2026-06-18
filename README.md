@@ -11,7 +11,7 @@ cat > /mnt/user-data/outputs/README.md << 'READMEEOF'
   <img src="https://img.shields.io/badge/ABESEC-Ghaziabad%2C%20India-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/Batch-2023--2027-green?style=flat-square" />
   <img src="https://img.shields.io/badge/Pronouns-he%2Fhim-lightgrey?style=flat-square" />
-  <img src="https://komarev.com/ghpvc/?username=YOUR_GITHUB_USERNAME&style=flat-square&color=grey" />
+
 </p>
 
 ---
@@ -85,12 +85,12 @@ Believer in clean architecture, consistent commits, and never stopping at "good 
   ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=https://github.com/mayank341/mayank341/t&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" height="155" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=https://github.com/mayank341/mayank341/&layout=compact&theme=default&hide_border=true&langs_count=8" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api?username=https://github.com/mayank341/mayank341&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=https://github.com/mayank341/mayank341&layout=compact&theme=default&hide_border=true&langs_count=8" height="155" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=https://github.com/mayank341/mayank341/&theme=default&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=https://github.com/mayank341/mayank341&theme=default&hide_border=true" />
 </p>
 
 ---
