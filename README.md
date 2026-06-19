@@ -1,4 +1,3 @@
-
 <h1 align="center">Hi, I'm Mayank 👋</h1>
 
 <p align="center">
@@ -7,11 +6,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/B.Tech-Information%20Technology-blue?style=flat-square&logo=graduation-cap" />
+  <img src="https://img.shields.io/badge/B.Tech-Information%20Technology-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/ABESEC-Ghaziabad%2C%20India-orange?style=flat-square" />
   <img src="https://img.shields.io/badge/Batch-2023--2027-green?style=flat-square" />
   <img src="https://img.shields.io/badge/Pronouns-he%2Fhim-lightgrey?style=flat-square" />
-
+  <img src="https://komarev.com/ghpvc/?username=mayank341&style=flat-square&color=grey" />
 </p>
 
 ---
@@ -23,7 +22,7 @@ Building at the intersection of **full-stack engineering** and **applied AI**. I
 Believer in clean architecture, consistent commits, and never stopping at "good enough."
 
 - 🔭 Currently building: **LangGraph multi-agent systems** + **FastAPI RAG pipelines**
-- 🌱 Exploring: **Generative AI**,**MACHINE LEARNING** , **Data Science**
+- 🌱 Exploring: **Generative AI**, **Machine Learning**, **Data Science**
 - 🤝 Open to: **AI/ML projects**, **open-source**, **hackathons**
 - 💬 Ask me about: **MERN**, **LLM pipelines**, **DSA**, **Git workflows**
 - ⚡ Fun fact: Went from knowing zero code to being completely obsessed with it — curiosity is my superpower
@@ -70,7 +69,9 @@ Believer in clean architecture, consistent commits, and never stopping at "good 
 
 > 6-month consistent DSA practice streak · Arrays → DP → Graphs → System Design
 
-![LeetCode Stats](https://leetcode.com/u/mayank_osholt/)
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/mayank_osholt?theme=light&font=Nunito&ext=heatmap" />
+</p>
 
 | Difficulty | Solved |
 |------------|--------|
@@ -78,23 +79,18 @@ Believer in clean architecture, consistent commits, and never stopping at "good 
 | 🟡 Medium  | 220+   |
 | 🔴 Hard    | 70+    |
 
-
 ---
 
-
-  ## 📊 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=https://github.com/mayank341/mayank341&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" height="155" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=https://github.com/mayank341/mayank341&layout=compact&theme=default&hide_border=true&langs_count=8" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mayank341&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true" height="155" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mayank341&layout=compact&theme=default&hide_border=true&langs_count=8" height="155" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=https://github.com/mayank341/mayank341&theme=default&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mayank341&theme=default&hide_border=true" />
 </p>
-
----
-
 
 ---
 
@@ -118,9 +114,8 @@ Believer in clean architecture, consistent commits, and never stopping at "good 
   </a>
 </p>
 
+---
 
 <p align="center">
   <sub>⚡ 500+ LeetCode · 6-month streak · LangChain pipelines · MERN apps · Always shipping.</sub>
 </p>
-
-
