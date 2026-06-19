@@ -118,7 +118,6 @@ Believer in clean architecture, consistent commits, and never stopping at "good 
   </a>
 </p>
 
----
 
 <p align="center">
   <sub>⚡ 500+ LeetCode · 6-month streak · LangChain pipelines · MERN apps · Always shipping.</sub>
