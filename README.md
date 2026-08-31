@@ -6,7 +6,7 @@
 
 # Hi there, I'm Mayank 👋
 
-### Full-Stack Engineer · AI/ML Engineer · DSA Grinder · Open-Source Contributor
+### Full-Stack Engineer · AI/ML Engineer · DSA Grinder · Open-Source Contributor *Gen-Ai Developer
 
 *"Build things. Break things. Learn. Repeat."*
 
