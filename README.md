@@ -4,7 +4,7 @@
 
 <div align="center">
 
-# Hi there, I'm Mayank 👋
+# Hi, I'm Mayank 👋
 
 ### Full-Stack Engineer · AI/ML Engineer · DSA Grinder · Open-Source Contributor *Gen-Ai Developer
 
