@@ -401,46 +401,11 @@ Raw Data → EDA → Cleaning → Feature Engineering → Model Selection
 
 ---
 
-## 📦 Dataset Information
 
-| Attribute | Details |
-|---|---|
-| **Source** | [Kaggle / UCI / Custom / API] |
-| **Records** | [X,XXX rows] |
-| **Features** | [XX input features] |
-| **Target Variable** | [Column name & type] |
-| **Class Balance** | [Balanced / Imbalanced — ratio] |
-| **Preprocessing** | Null handling · Label encoding · StandardScaler |
-| **Train / Val / Test Split** | 70% / 15% / 15% |
 
 ---
 
-## 📈 Model Performance
 
-### Classification Metrics
-
-| Model | Accuracy | Precision | Recall | F1 Score | AUC-ROC |
-|---|---|---|---|---|---|
-| Logistic Regression (baseline) | XX% | X.XX | X.XX | X.XX | X.XX |
-| Random Forest | XX% | X.XX | X.XX | X.XX | X.XX |
-| XGBoost | XX% | X.XX | X.XX | X.XX | X.XX |
-| **Final Model** | **XX%** | **X.XX** | **X.XX** | **X.XX** | **X.XX** |
-
-### Regression Metrics *(if applicable)*
-
-| Model | MAE | MSE | RMSE | R² Score |
-|---|---|---|---|---|
-| Linear Regression | X.XX | X.XX | X.XX | X.XX |
-| **Final Model** | **X.XX** | **X.XX** | **X.XX** | **X.XX** |
-
----
-
-## 🌐 API Documentation
-
-### Base URL
-```
-http://localhost:8000/api/v1
-```
 
 ### Endpoints
 
@@ -454,97 +419,18 @@ http://localhost:8000/api/v1
 | `GET` | `/dashboard/stats` | Get analytics data | ✅ |
 | `GET` | `/health` | API health check | ❌ |
 
-### Request / Response Example
 
-```python
-# POST /predict
-# Request
-{
-  "features": [1.2, 3.4, 5.6, 7.8]
-}
 
-# Response
-{
-  "prediction": "Class_A",
-  "confidence": 0.94,
-  "model_version": "v1.2.0",
-  "latency_ms": 23
-}
-```
-
-```python
-# POST /chat
-# Request
-{
-  "message": "Summarize the uploaded document",
-  "session_id": "abc123"
-}
-
-# Response
-{
-  "reply": "The document covers...",
-  "sources": ["doc1.pdf#page3"],
-  "tokens_used": 412
 }
 ```
 
 ---
 
-## ⚙️ Installation & Setup
 
-### Prerequisites
-- Python 3.11+
-- Node.js 18+
-- MongoDB (local or Atlas)
-- Docker (optional)
 
-### Quick Start
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/mayank341/[PROJECT_NAME].git
-cd [PROJECT_NAME]
-
-# 2. Backend setup
-cd backend
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your API keys and DB URI
-
-# 4. Start backend
-uvicorn app.main:app --reload --port 8000
-
-# 5. Frontend setup (new terminal)
-cd ../frontend
-npm install
-npm run dev
-
-# 6. Access the app
-# Frontend  →  http://localhost:5173
-# API Docs  →  http://localhost:8000/docs
-# Redoc     →  http://localhost:8000/redoc
 ```
 
-### Docker (One Command)
-
-```bash
-docker-compose up --build
-```
-
-### Environment Variables
-
-```env
-# Backend .env
-MONGODB_URI=mongodb+srv://...
-OPENAI_API_KEY=sk-...
-GOOGLE_API_KEY=...
-JWT_SECRET=your_secret_key
-ENVIRONMENT=development
-```
 
 ---
 
@@ -560,100 +446,15 @@ ENVIRONMENT=development
 
 ---
 
-## 🚢 Deployment Guide
 
-### Render (Backend)
-```bash
-# Set build command
-pip install -r requirements.txt
 
-# Set start command
-uvicorn app.main:app --host 0.0.0.0 --port $PORT
-```
 
-### Vercel (Frontend)
-```bash
-npm run build
-# Connect GitHub repo to Vercel — auto-deploys on push
-```
-
-### Docker + Railway
-```bash
-docker build -t [project-name] .
-# Push to Railway via GitHub integration
-```
-
-### AWS / Azure *(Production)*
-```bash
-# Build Docker image
-docker build -t [project-name]:latest .
-docker tag [project-name]:latest [ECR_URI]/[project-name]:latest
-docker push [ECR_URI]/[project-name]:latest
-# Deploy via ECS / Azure Container Apps
-```
+---
+ies | Cost reduction |
 
 ---
 
-## 🧪 Testing
 
-```bash
-# Unit tests
-pytest tests/ -v
-
-# API integration tests
-pytest tests/test_api.py -v
-
-# ML model tests
-pytest tests/test_models.py -v
-
-# Coverage report
-pytest --cov=app tests/
-```
-
-| Test Type | Coverage | Tool |
-|---|---|---|
-| Unit Tests | XX% | pytest |
-| API Tests | XX% | pytest + httpx |
-| Model Tests | XX% | pytest + sklearn metrics |
-
----
-
-## 🔒 Security Considerations
-
-| Concern | Implementation |
-|---|---|
-| **Authentication** | JWT with expiry + refresh tokens |
-| **Input Validation** | Pydantic schemas on every endpoint |
-| **Rate Limiting** | SlowAPI middleware on FastAPI |
-| **Secrets** | .env + never committed to git |
-| **CORS** | Whitelist-only origin policy |
-| **Data Privacy** | No PII stored in logs |
-
----
-
-## ⚡ Performance Optimizations
-
-| Layer | Optimization | Impact |
-|---|---|---|
-| **FastAPI** | Async endpoints + Uvicorn workers | 3× throughput |
-| **Database** | MongoDB indexes on query fields | 60% faster reads |
-| **ML Model** | ONNX export / model caching | <50ms inference |
-| **Frontend** | React.memo · lazy loading · code splitting | Faster TTI |
-| **Cache** | Redis for repeated LLM queries | Cost reduction |
-
----
-
-## 🧗 Challenges & Solutions
-
-| Challenge | Root Cause | Solution | Outcome |
-|---|---|---|---|
-| LLM hallucination | No grounding context | Added RAG + source citation | 40% accuracy gain |
-| Slow API response | Synchronous model loading | Async + model pre-loading | <100ms latency |
-| MongoDB slow queries | Missing indexes | Added compound indexes | 60% faster |
-| Agent loop issues | LangGraph state not reset | Proper state management | Stable agent |
-| CORS errors | Frontend/backend mismatch | Explicit CORS middleware config | Resolved |
-
----
 
 ## 📚 Learning Outcomes
 
