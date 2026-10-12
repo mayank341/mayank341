@@ -159,102 +159,12 @@ System Design       ███████████░░░░░░░░░
 
 ---
 
-## 🚀 What I'm Building
 
-```mermaid
-graph LR
-    A[User Input] --> B[FastAPI Backend]
-    B --> C[LangGraph Agent]
-    C --> D[LLM - GPT/Gemini]
-    C --> E[RAG - FAISS/Chroma]
-    C --> F[Tool Calls]
-    D --> G[Response]
-    E --> G
-    F --> G
-    G --> H[React Frontend]
-```
 
-| Project Type | Status | Stack |
-|---|---|---|
-| 🤖 LangGraph multi-agent chatbot | 🔨 Building | LangGraph · FastAPI · React |
-| 🔍 RAG pipeline with FAISS | 🔨 Building | LangChain · FastAPI · ChromaDB |
-| 🌐 Full-stack MERN app | ✅ Shipped | React · Node · MongoDB |
-| 📊 ML prediction service | 🔨 Building | scikit-learn · FastAPI · Docker |
 
----
 
-## 🎯 Currently Learning
 
-```
-📌  LangGraph      →  Stateful multi-agent orchestration
-📌  RAG Systems    →  Retrieval-Augmented Generation at scale
-📌  System Design  →  HLD/LLD for SWE interviews
-📌  ML Deployment  →  FastAPI + Docker + cloud hosting
-📌  DSA            →  Daily LeetCode · 500+ solved · grinding hard
-```
 
----
-
-## 📂 Featured Projects
-
-> ⭐ Pin your best 3–4 repos. Below is a template for each project README.
-
----
-
-### 📋 Project README Template *(ATS & Recruiter Optimized)*
-
----
-
-# [PROJECT_NAME]
-
-<div align="center">
-
-![](https://img.shields.io/badge/Type-[PROJECT_TYPE]-blue?style=for-the-badge)
-![](https://img.shields.io/badge/Status-Production%20Ready-green?style=for-the-badge)
-![](https://img.shields.io/badge/Python-3.11-3776AB?style=for-the-badge&logo=python)
-![](https://img.shields.io/badge/FastAPI-0.104-005571?style=for-the-badge&logo=fastapi)
-![](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
-
-**[PROJECT_TAGLINE — one compelling sentence describing the project]**
-
-[🔴 Live Demo](#) · [📖 API Docs](#) · [📊 Dataset](#) · [🐛 Report Bug](#)
-
-</div>
-
----
-
-## 📌 Executive Summary
-
-### Problem Statement
-> [DESCRIBE THE REAL-WORLD PROBLEM YOUR PROJECT SOLVES IN 2–3 SENTENCES]
-
-### Why I Built This
-[Explain motivation — internship prep, real need, learning goal, or hackathon.]
-
-### Business Impact
-| Metric | Value |
-|---|---|
-| Processing Speed | [X]% faster than baseline |
-| Model Accuracy | [XX]% on test set |
-| API Response Time | < [X]ms avg |
-| Dataset Size | [X,XXX] records |
-
----
-
-## 🏗️ Architecture Overview
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                        CLIENT LAYER                         │
-│               React.js Frontend (Tailwind CSS)              │
-└─────────────────────────┬───────────────────────────────────┘
-                          │ HTTP / WebSocket
-┌─────────────────────────▼───────────────────────────────────┐
-│                         API LAYER                           │
-│              FastAPI Backend (Async Python)                 │
-│          JWT Auth · Rate Limiting · CORS · Pydantic         │
-└───────────┬─────────────────────────────┬───────────────────┘
-            │                             │
 ┌───────────▼──────────┐     ┌───────────▼──────────────────┐
 │     AI/ML ENGINE     │     │        DATA LAYER            │
 │  LangChain/LangGraph │     │  MongoDB · FAISS · Redis     │
@@ -262,13 +172,6 @@ graph LR
 └──────────────────────┘     └──────────────────────────────┘
 ```
 
-### Data Flow
-```
-Input → Validation (Pydantic) → Preprocessing → ML Model / LLM
-     → Post-processing → Response Formatting → Client
-```
-
----
 
 ## 🧰 Technology Stack
 
@@ -303,138 +206,7 @@ Input → Validation (Pydantic) → Preprocessing → ML Model / LLM
 | **CI/CD** | GitHub Actions | Automated deployment |
 | **Monitoring** | Logging + Uvicorn | Performance tracking |
 
----
 
-## 📁 Project Structure
-
-```
-[PROJECT_NAME]/
-│
-├── 📁 backend/
-│   ├── 📁 app/
-│   │   ├── main.py              # FastAPI entry point
-│   │   ├── 📁 api/
-│   │   │   ├── routes.py        # API endpoints
-│   │   │   └── dependencies.py  # Dependency injection
-│   │   ├── 📁 models/
-│   │   │   ├── schemas.py       # Pydantic models
-│   │   │   └── db_models.py     # Database models
-│   │   ├── 📁 services/
-│   │   │   ├── ai_service.py    # LLM / LangChain logic
-│   │   │   ├── ml_service.py    # ML model inference
-│   │   │   └── data_service.py  # Data processing
-│   │   ├── 📁 core/
-│   │   │   ├── config.py        # Environment config
-│   │   │   ├── security.py      # JWT & auth
-│   │   │   └── database.py      # DB connection
-│   │   └── 📁 utils/
-│   │       └── helpers.py       # Utility functions
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── 📁 frontend/
-│   ├── 📁 src/
-│   │   ├── 📁 components/       # Reusable UI components
-│   │   ├── 📁 pages/            # Route-level pages
-│   │   ├── 📁 hooks/            # Custom React hooks
-│   │   ├── 📁 services/         # API call layer
-│   │   ├── 📁 store/            # State management
-│   │   └── App.jsx
-│   ├── package.json
-│   └── tailwind.config.js
-│
-├── 📁 ml/
-│   ├── 📁 notebooks/            # EDA & experimentation
-│   ├── 📁 models/               # Saved model artifacts
-│   ├── 📁 data/                 # Raw & processed data
-│   ├── train.py
-│   ├── evaluate.py
-│   └── predict.py
-│
-├── 📁 tests/
-│   ├── test_api.py
-│   ├── test_models.py
-│   └── test_services.py
-│
-├── docker-compose.yml
-├── .env.example
-└── README.md
-```
-
----
-
-## ✨ Features
-
-| Feature | Description | Status |
-|---|---|---|
-| 🔐 **JWT Authentication** | Secure login · Refresh tokens · Role-based access | ✅ |
-| 🤖 **AI Chatbot** | Multi-turn LLM conversation with memory | ✅ |
-| 🔍 **RAG Pipeline** | Retrieval-Augmented Generation over custom docs | ✅ |
-| 📊 **Analytics Dashboard** | Real-time data visualization | ✅ |
-| 🔮 **ML Prediction API** | REST endpoint for model inference | ✅ |
-| 📄 **CRUD Operations** | Full create/read/update/delete data management | ✅ |
-| 🚀 **Async FastAPI** | High-performance async API with rate limiting | ✅ |
-| 🐳 **Docker Support** | One-command containerized deployment | ✅ |
-
----
-
-## 🤖 Machine Learning Pipeline
-
-```
-Raw Data → EDA → Cleaning → Feature Engineering → Model Selection
-        → Training → Evaluation → Hyperparameter Tuning → Deployment
-```
-
-### Step-by-Step Pipeline
-
-| Stage | Tools | Description |
-|---|---|---|
-| **1. Data Collection** | Kaggle · APIs · Web scraping | Gather raw dataset |
-| **2. EDA** | Pandas · Matplotlib · Seaborn | Understand distributions, correlations |
-| **3. Preprocessing** | scikit-learn · NumPy | Handle nulls, encode, normalize |
-| **4. Feature Engineering** | Pandas · domain knowledge | Create meaningful features |
-| **5. Model Selection** | scikit-learn · cross-validation | Baseline → advanced comparison |
-| **6. Training** | scikit-learn · TensorFlow | Fit on train split |
-| **7. Evaluation** | Classification/regression metrics | Test set performance |
-| **8. Tuning** | GridSearchCV · RandomizedSearch | Optimize hyperparameters |
-| **9. Deployment** | FastAPI · Docker · Pickle/ONNX | Serve as REST endpoint |
-
----
-
-
-
----
-
-
-
-### Endpoints
-
-| Method | Endpoint | Description | Auth Required |
-|---|---|---|---|
-| `POST` | `/auth/register` | Register new user | ❌ |
-| `POST` | `/auth/login` | Login & get JWT | ❌ |
-| `GET` | `/predict` | Run ML prediction | ✅ |
-| `POST` | `/chat` | Chat with AI agent | ✅ |
-| `POST` | `/rag/query` | RAG document query | ✅ |
-| `GET` | `/dashboard/stats` | Get analytics data | ✅ |
-| `GET` | `/health` | API health check | ❌ |
-
-
-
-}
-```
-
----
-
-
-
-
-```
-
-
----
-
-## 🖼️ Screenshots
 
 | Page | Preview |
 |---|---|
@@ -443,17 +215,6 @@ Raw Data → EDA → Cleaning → Feature Engineering → Model Selection
 | 🤖 AI Chat | ![Chat](screenshots/chat.png) |
 | 🔮 Prediction | ![Predict](screenshots/predict.png) |
 | 📄 API Docs | ![Docs](screenshots/api_docs.png) |
-
----
-
-
-
-
----
-ies | Cost reduction |
-
----
-
 
 
 ## 📚 Learning Outcomes
